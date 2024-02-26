@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+.header_item {
+  background-color: hwb(297 28% 27%);
+  padding: 10px 18px;
+  text-align: left;
+}
+.header_item:hover {
+  color: chartreuse;
+  border: hwb(297 28% 27%);
+}
+
+.nav_items {
+  display: inline-block;
+  width: calc(100% - 99px);
+  text-align: right;
+}
+.ul_items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.header_item a {
+  color: aqua;
+  background-color: #452645e2;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.header_item a:hover {
+  color: chartreuse;
+  border: hwb(297 28% 27%);
+}
+.header_item a:active {
+  color: aliceblue;
+}
+.li-item {
+  display: inline-block;
+  margin: 0 10px;
+}
+.section_items {
+  background: url("RotekAUV.png");
+  background-position: center;
+  margin-top: 1px;
+  padding: 300px;
+}
+.logo {
+  color: black;
+  text-decoration: none;
+  font: bold;
+  font-size: 21px;
+}
+.nav_items a {
+  text-decoration: none;
+  color: aliceblue;
+  font: optional;
+  font-size: 15px;
+}
+.nav_items a:hover {
+  color: chartreuse;
+}
+.nav_items:hover::before {
+  color: chartreuse;
+}
+.nav_items a:active {
+  color: aliceblue;
+}
+.nav_items a::before {
+  padding: 2px;
+  content: "\2022";
+  color: black;
+}
+.li-item__Documantary a {
+  color: aqua;
+  background-color: #452645e2;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+}
+.li-item__Documantary a:hover {
+  color: chartreuse;
+  border: hwb(297 28% 27%);
+}
