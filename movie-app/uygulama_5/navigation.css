@@ -81,3 +81,78 @@
   color: chartreuse;
   border: hwb(297 28% 27%);
 }
+.section_items2 div {
+  text-align: left;
+  padding: 20;
+}
+.div1 {
+  display: inline-block;
+  width: 30%;
+  padding: 50px;
+  margin: 16px;
+  justify-content: center;
+  align-items: center;
+}
+.div2 h2 {
+  text-align: center;
+  margin: 6px;
+}
+.div2 p {
+  display: inline-block;
+  padding: 5px;
+  margin: 1px;
+  text-align: center;
+}
+.section_items h1 {
+  color: aqua;
+  background-color: #452645e2;
+  padding: 4px 16px;
+  border-radius: 8px;
+  border: 2px solid white;
+  width: 30%;
+  display: inline-block;
+  margin: 16px;
+  position: absolute;
+  top: 50px;
+  left: 2px;
+}
+.büyük-icon {
+  font-size: 34px;
+}
+.col-2 {
+  display: inline-block;
+  width: calc(50% - 2px);
+  height: 430px;
+  background-color: chocolate;
+}
+.featurs__left {
+  background: url("rotek.png");
+  background-size: cover;
+  background-position: top center;
+  vertical-align: top;
+}
+.featurs__right {
+  background-color: hwb(297 28% 27%);
+  padding: 40px;
+  vertical-align: top;
+}
+.featurs__right h3 {
+  font-size: 30px;
+}
+#featurs a {
+  background-color: #452645e2;
+  color: white;
+  padding: 7px 15px;
+  text-decoration: none;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #452645e2;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 15px;
+}
+#featurs a:hover {
+  border: 1px solid #452645e2;
+  color: #452645e2;
+  background-color: white;
+}

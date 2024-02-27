@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.header div {
+  background-color: blueviolet;
+  padding: 40px;
+}
+.header h1 {
+  color: darkorange;
+}
+.col {
+  float: left;
+  padding: 15px 15px;
+}
+.menu {
+  width: 25%;
+}
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: blueviolet;
+  color: white;
+}
+.menu li:hover {
+  background-color: darkorchid;
+  color: white;
+}
+.content {
+  width: 75%;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.Footer div {
+  background-color: blueviolet;
+  padding: 40px;
+}
+.Footer h1 {
+  color: darkorange;
+}
