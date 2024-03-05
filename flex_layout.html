@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: darkgoldenrod;
+        text-align: center;
+        color: black;
+      }
+      .navbar {
+        display: flex;
+        background-color: black;
+        font-size: 1rem;
+        color: darkgoldenrod;
+      }
+      .navbar a {
+        padding: 10px 12px;
+        text-align: center;
+        color: darkgoldenrod;
+        text-decoration: none;
+      }
+      .navbar a:hover {
+        background-color: goldenrod;
+        color: darkblue;
+      }
+      .ph {
+        background-color: gray;
+        width: 100%;
+        padding: 20px;
+        margin-top: 10px;
+      }
+      .box {
+        margin: 16px;
+      }
+      #main {
+        display: flex;
+      }
+      #sidebar {
+        background-color: lightgray;
+        padding: 20px;
+        flex: 25%;
+        order: 1;
+      }
+      .content {
+        flex: 75%;
+      }
+      .footer {
+        background-color: goldenrod;
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        padding: 16px;
+      }
+      @media (max-width: 700px) {
+        #main .navbar {
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Lorem, ipsum.</h1>
+      <p>Lorem ipsum dolor sit.</p>
+    </div>
+    <div class="navbar">
+      <a href="">link1</a>
+      <a href="">link2</a>
+      <a href="">link3</a>
+      <a href="">link4</a>
+    </div>
+    <div id="main">
+      <div id="sidebar">
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+          <div class="ph" style="height: 200px"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error amet
+            praesentium eos non aliquam illum officia eaque eligendi adipisci
+            dignissimos.
+          </p>
+        </div>
+        <div class="ph" style="height: 50px"></div>
+        <div class="ph" style="height: 50px"></div>
+        <div class="ph" style="height: 50px"></div>
+      </div>
+      <div class="content">
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+          <div class="ph" style="height: 200px"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error amet
+            praesentium eos non aliquam illum officia eaque eligendi adipisci
+            dignissimos.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+          <div class="ph" style="height: 200px"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error amet
+            praesentium eos non aliquam illum officia eaque eligendi adipisci
+            dignissimos.
+          </p>
+        </div>
+        <div class="box">
+          <h2>Lorem, ipsum.</h2>
+          <div class="ph" style="height: 200px"></div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error amet
+            praesentium eos non aliquam illum officia eaque eligendi adipisci
+            dignissimos.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Lorem, ipsum.</p>
+    </div>
+  </body>
+</html>
