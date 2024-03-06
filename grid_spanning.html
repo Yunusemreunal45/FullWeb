@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 10px;
+      }
+      .header {
+        grid-column: 1 / span 3;
+        background-color: darkgreen;
+        text-align: center;
+      }
+      .content {
+        grid-column: 1 / span 2;
+        background-color: darkslategrey;
+      }
+      .foter {
+        grid-column: 1 / span 3;
+        background-color: indianred;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1>Page Header</h1>
+      </header>
+      <section class="content">
+        <h2>Lorem, ipsum.</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt
+          eligendi dolorem quibusdam officia. Sapiente, maxime. Laudantium amet
+          quam nulla minus!
+        </p>
+      </section>
+      <section class="sidebar">
+        <ul>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+          <li>Lorem, ipsum.</li>
+        </ul>
+      </section>
+      <footer class="foter">
+        <p>Lorem ipsum dolor sit amet.</p>
+      </footer>
+    </div>
+  </body>
+</html>
