@@ -1,0 +1,71 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: blueviolet;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+#page-3 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+#page-2 {
+  background-color: red;
+}
+#page-2 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+#page-1 {
+  background-color: tomato;
+}
+#page-1 h1 {
+  text-align: center;
+  font-size: 60px;
+}
+.class_3 {
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+.class_3 a {
+  text-decoration: none;
+  background-color: gray;
+  border: 2px solid yellow;
+  padding: 5px;
+  transition: all 0.4s;
+}
+.class_3 a:hover {
+  background-color: wheat;
+}
+.class_2 p {
+  position: relative;
+  font-size: 1.3rem;
+  animation: text_animation 3s alternate 1s ease-in-out;
+}
+@keyframes text_animation {
+  from {
+    left: -300px;
+  }
+  to {
+    left: 10px;
+  }
+}
+.page h1 {
+  transform: translateY(-900px);
+  animation: h1-animation 2s forwards 1s ease-in;
+}
+@keyframes h1-animation {
+  to {
+    transform: translateY(0);
+  }
+}
