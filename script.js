@@ -19,3 +19,7 @@ console.log(ogr1_old);
 
 let ogr2_old = date_now - Number(ogr2birthday);
 console.log(ogr2_old);
+
+if (ogr1_not1 >= ogr1_not2) {
+  console.log("öne geçti");
+}
