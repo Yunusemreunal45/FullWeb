@@ -23,3 +23,4 @@ console.log(ogr2_old);
 if (ogr1_not1 >= ogr1_not2) {
   console.log("öne geçti");
 }
+
